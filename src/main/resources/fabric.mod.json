@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "stunslam",
+  "version": "1.0.0",
+  "name": "Stun Slam",
+  "description": "One key: axe hit, then mace hit, then turns off until pressed again.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.stunslam.StunSlamClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
